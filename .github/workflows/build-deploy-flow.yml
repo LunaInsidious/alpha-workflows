@@ -23,7 +23,7 @@ jobs:
      - name: Page の設定
        uses: actions/configure-pages@v5
        with:
-         static_site_genarater: 'next'
+         static_site_genarater: next
 
      - name: 関連モジュールをインストール
        run: npm ci
